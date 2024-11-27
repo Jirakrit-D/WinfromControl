@@ -1,4 +1,4 @@
-namespace WinfromControl
+﻿namespace WinfromControl
 {
     public partial class Form1 : Form
     {
@@ -16,7 +16,7 @@ namespace WinfromControl
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show("��ͧ��ûԴ��ԧ�������", "��㨹�", MessageBoxButtons.YesNo,
+            if (MessageBox.Show("ต้องการปิดจริงหรือไม่", "แน่ใจนะ", MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question) == DialogResult.No)
             {
                 e.Cancel = true;
@@ -63,13 +63,13 @@ namespace WinfromControl
 
         private void label1_Click(object sender, EventArgs e)
         {
-            if (label1.Text == "����Է������Ҫ�Ѯ�شøҳ�")
+            if (label1.Text == "มหาวิทยาลัยราชภัฎอุดรธาณี")
             {
                 label1.Text = "Udonthani Rajabhat University";
             }
             else
             {
-                label1.Text = "����Է������Ҫ�Ѯ�شøҳ�";
+                label1.Text = "มหาวิทยาลัยราชภัฎอุดรธาณี";
             }
         }
 
